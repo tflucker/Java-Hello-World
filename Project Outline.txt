@@ -1,0 +1,19 @@
+
+1. Create new Java Maven project - webapp archetype
+
+2. Add dependencies + plugins
+	+ see POM.XML
+
+3. Create Config classes
+	+ SpringWebConfig
+	+ WebInitializer
+	
+4. Create WelcomeController
+
+5. Create new folder in WEB-INF called "views", move index.jsp into folder
+
+6. Update JSP 
+
+7. Build Project mvn eclipse:eclipse
+
+8. Run project mvn jetty:run
